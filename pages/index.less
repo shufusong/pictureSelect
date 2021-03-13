@@ -1,0 +1,100 @@
+.imageMargin {
+  margin-left: 8px;
+  display: inline-block;
+  position: relative;
+  width: 124px;
+}
+
+.allCheck {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #1890ff;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.noCheck {
+  width: 14px;
+  height: 14px;
+  top: 4px;
+  left: 4px;
+  position: absolute;
+  border: 2px solid #f6f6f6db;
+  cursor: pointer;
+}
+
+.checked {
+  width: 14px;
+  height: 14px;
+  top: 4px;
+  left: 4px;
+  position: absolute;
+  background-color: #1890ff;
+  cursor: pointer;
+}
+.checked:before,
+.checked::after {
+  content: "";
+  height: 13px;
+  width: 3px;
+  border-radius: 10px;
+  display: block;
+  background: white;
+  position: absolute;
+  top: 1px;
+  left: 8px;
+  transform: rotate(45deg);
+}
+.checked::before {
+  height: 9px;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  position: absolute;
+  top: 5px;
+  left: 2px;
+}
+
+.allChecked {
+  width: 14px;
+  height: 14px;
+  top: 10px;
+  left: 14px;
+  position: absolute;
+  background-color: #1890ff;
+  cursor: pointer;
+}
+.allChecked:before,
+.allChecked::after {
+  content: "";
+  height: 13px;
+  width: 3px;
+  border-radius: 10px;
+  display: block;
+  background: white;
+  position: absolute;
+  top: 1px;
+  left: 8px;
+  transform: rotate(45deg);
+}
+.allChecked::before {
+  height: 9px;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  position: absolute;
+  top: 5px;
+  left: 2px;
+}
+
+.allcheckText {
+  margin-left: 28px;
+}
+.margin16 {
+  margin-top: 16px;
+}
+.wrap {
+  word-wrap: break-word;
+  word-break: break-all;
+  // overflow: hidden;/*这个参数根据需要来绝对要不要*/
+}

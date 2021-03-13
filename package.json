@@ -1,0 +1,54 @@
+{
+  "name": "g6-in-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baizn/g6-in-react.git"
+  },
+  "keywords": [
+    "g6"
+  ],
+  "author": "baizn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baizn/g6-in-react/issues"
+  },
+  "homepage": "https://github.com/baizn/g6-in-react#readme",
+  "dependencies": {
+    "@antv/g6": "^3.4.0",
+    "antd": "^3.26.20",
+    "classnames": "^2.2.6",
+    "html-webpack-plugin": "^4.2.0",
+    "js-md5": "^0.7.3",
+    "less": "^3.12.2",
+    "less-loader": "^5.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^4.2.3",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "mobx": "^4.9.2",
+    "mobx-react": "^5.4.3",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.1.4",
+    "ts-loader": "^7.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
